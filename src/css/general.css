@@ -17,30 +17,32 @@
    justify-content: space-between;
    align-items: center;
    padding: 0 16px;
-   flex-wrap: wrap;
 }
 .header--youtube{
-    width: 169px;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+.burger-icon{
+    margin: 0 1rem;
+}
 .header--search{
+    width: 50%;
     height: 40px;
-    width: 644px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 .search--boder{
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid gray;
+    border: 1px solid rgba(128, 128, 128, 0.61);
 }
 .header--search input{
-    width: 52.5rem;
      height: 3.75rem;
      border: none;
      padding-left: 1rem;
@@ -52,8 +54,10 @@
 .search-button--container{
     height: 100%;
     width: 60px;
+    border-left: 1px solid rgba(128, 128, 128, 0.267);
+}
+.search-button--container:hover{
     background: #f2f2f2;
-    border-left: 1px solid gray;
 }
 .search-button-container-diferent{
     width: 40px;
@@ -62,7 +66,7 @@
     border: none;
 }
 .header-user-acount{
-    width: 255px;
+    width: 15%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,6 +74,12 @@
 .header-user-acount img{
     width: 3.5rem;
     border-radius: 50%;
+}
+.voice--icon{
+    margin: 0 1rem;
+}
+.user-serch{
+    display: none;
 }
 /*--------------------------------*/
 .nav-container{

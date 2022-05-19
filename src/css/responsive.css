@@ -1,0 +1,51 @@
+@media (max-width: 790px) {
+    .camera--icon{
+        display: none;
+    }
+    .apps--icon{
+        display: none;
+    }
+    .header--search{
+        width: 35%;
+    }
+    .header--search input{
+        width: 100%;
+    }
+    .header--youtube{
+        width: 20%;
+    }
+    .header--search input{
+        border-right: 1px solid rgba(128, 128, 128, 0.61);
+    }
+    .voice--button{
+        display: none;
+    }
+    .search-button--container{
+        border-left: none;
+    }
+}
+@media (max-width: 582px)  {
+    .burger-icon{
+        display: none;
+    }
+    .header--youtube{
+        width: 20%;
+    }
+}
+@media (max-width: 398px)  {
+    .header--youtube{
+        width: 40%;
+    }
+    .header-user-acount{
+        width: 35%;
+    }
+    .user-serch{
+        display: inline-block;
+    }
+    .search--icon{
+        margin: 0;
+    }
+    .header--search{
+        display: none;
+    }
+}
