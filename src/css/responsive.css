@@ -34,7 +34,7 @@
 }
 @media (max-width: 398px)  {
     .header--youtube{
-        width: 40%;
+        width: 35%;
     }
     .header-user-acount{
         width: 35%;
@@ -47,5 +47,24 @@
     }
     .header--search{
         display: none;
+    }
+    .all-container{
+        width: 100%;
+        max-width: 1500px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas:
+        "header header header header header"
+        "article article article article article"
+        "article article article article article"
+        "aside aside aside aside aside"
+        ;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1249px) {
+    .aside-container{
+        width: 50% ;
+        
     }
 }

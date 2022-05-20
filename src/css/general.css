@@ -8,6 +8,7 @@
     "aside nav nav nav nav"
     "aside article article article article"
     ;
+    margin: 0 auto;
 }
 /*Header*/
 .header-container{
@@ -87,14 +88,50 @@
     grid-area: nav;
     overflow-x: scroll;
 }
+/* Aside */
 .aside-container{
     /*width: 240px;*/
     height: 91.8vh;
     overflow-y: scroll;
     grid-area: aside;
 }
+.info-container{
+    border-bottom: 1px solid   #e5e5e5;
+}
+.info--items{
+    margin: 1rem 4.5rem;
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.info--items:hover{
+    background:   #e5e5e5;
+}
+.info-icons{
+    margin-right: 5.5rem;
+}
+.info--items p{
+    font-size: 1.4rem;
+}
+/*---------------------------------------------------*/
 .article-container{
     height: 83.5vh;
     grid-area: article;
     overflow-y: scroll;
+}
+.video--container{
+    cursor: pointer;
+    margin: 1rem;
+}
+.videos--grid{
+    width: 98%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(155px, 250px));
+    gap: 1rem;
+}
+.video--container img{
+    width: 100%;
 }
