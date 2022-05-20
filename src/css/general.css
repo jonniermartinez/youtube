@@ -88,6 +88,39 @@
     grid-area: nav;
     overflow-x: scroll;
 }
+.carousel--contenedor{
+    position: relative;
+    padding: 2rem 0;
+}
+.carousel__lista{
+    margin: 0 4rem;
+} 
+.carousel__lista p{
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    border: 1px solid #0000;
+} 
+.carousel__elemento{
+    width: auto;
+    height: 1rem;
+
+}
+.carousel__anterior,
+.carousel__siguiente{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: none;
+    top: 1.7rem;
+    cursor: pointer;
+    text-align: center;
+    background: none;
+    opacity: 50%;
+}
+.carousel__siguiente{
+    right: 10px;
+}
 /* Aside */
 .aside-container{
     /*width: 240px;*/

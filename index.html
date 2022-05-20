@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube clone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
     <link rel="stylesheet" href="./src/css/general.css">
     <link rel="stylesheet" href="./src/css/index.css">
     <link rel="stylesheet" href="./src/css/icons.css">
     <link rel="stylesheet" href="./src/css/responsive.css">
+
 </head>
 <body>
     <main class="all-container">
@@ -62,8 +64,72 @@
             </div>
         </header>
         <nav class="nav-container">
-            <section class="nav-section">
-                <p>Todos</p>
+            <section class="carousel--contenedor">
+                <button aria-level="Anterior" class="carousel__anterior">
+                    <div class="icons">
+                        <svg viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g mirror-in-rtl="" class="style-scope yt-icon"><path d="M10.15,13.35L4.79,8l5.35-5.35l0.71,0.71L6.21,8l4.65,4.65L10.15,13.35z" class="style-scope yt-icon"></path></g></svg>
+                    </div>
+                </button>
+
+                <div class="carousel__lista">
+                    <div class="carousel__elemento">
+                        <p>Todos</p>
+                    </div>
+                    <div class="carousel__elemento">
+                        <p>Mixes</p>
+                    </div>
+                    <div class="carousel__elemento">
+                       <p>Música</p>
+                    </div> 
+                    <div class="carousel__elemento">
+                        <p>En tiempo real</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Videojuegos</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Comedia</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Entrenamiento físico</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Futbol</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Animación</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Programación</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Vito</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Novedades</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Noticias</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Python</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>JavaScrip</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>Angular</p>
+                     </div> 
+                     <div class="carousel__elemento">
+                        <p>React</p>
+                     </div> 
+                </div>
+
+                <button aria-level="Siguiente" class="carousel__siguiente">
+                    <div class="icons">
+                        <svg viewBox="0 0 16 16" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g mirror-in-rtl="" class="style-scope yt-icon"><path d="M4.97,12.65L9.62,8L4.97,3.35l0.71-0.71L11.03,8l-5.35,5.35L4.97,12.65z" class="style-scope yt-icon"></path></g></svg>
+                    </div>
+                </button>
             </section>
         </nav>
         <aside class="aside-container">
@@ -367,5 +433,7 @@
             </div>
         </article>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="./src/js/index.js"></script>
 </body>
 </html>
