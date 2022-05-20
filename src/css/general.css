@@ -125,12 +125,13 @@
     margin: 1rem;
 }
 .videos--grid{
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
     padding: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(155px, 250px));
+    grid-template-columns: repeat(auto-fill, minmax(90px, 250px));
     gap: 1rem;
+    justify-content: center
 }
 .video--container img{
     width: 100%;
