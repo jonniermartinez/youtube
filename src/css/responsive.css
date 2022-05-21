@@ -48,7 +48,7 @@
     .header--search{
         display: none;
     }
-    .all-container{
+  /*  .all-container{
         width: 100%;
         max-width: 1500px;
         display: grid;
@@ -60,6 +60,12 @@
         "aside aside aside aside aside"
         ;
         margin: 0 auto;
+    }*/
+    .video--container {
+        margin: 0;
+    }    
+    .videos--grid {
+        grid-template-columns: repeat(auto-fill, minmax(83px, 100vw));
     }
 }
 @media (max-width: 1249px) {
@@ -74,7 +80,14 @@
         ;
     }
     .aside-container{
-        height: 35rem;
+        height: 3.5rem;
+    }
+    .info-container {
+        margin: 0;
+    }
+    .aside-container {
+        /* width: 240px; */
+        overflow-y: hidden;
     }
     .info--items{
         display: inline-block;
@@ -106,6 +119,9 @@
         display: none;
     }
     .info-container-5{
+        display: none;
+    }
+    .terms-and-conditions{
         display: none;
     }
 }

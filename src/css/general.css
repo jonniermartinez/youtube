@@ -199,3 +199,15 @@
 .video--container img{
     width: 100%;
 }
+.video-information{
+    display: flex;
+}
+.video-information img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-right: .8rem;
+    border-radius: 50%;
+}
+.views-info{
+    display: flex;
+}
