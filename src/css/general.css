@@ -87,57 +87,24 @@
     height: 56px;
     grid-area: nav;
     overflow-x: scroll;
-}
-.carousel--contenedor{
-    position: relative;
-    padding: 1.3rem 0;
-}
-.carousel__lista{
-    margin: 0 4rem;
-} 
-.glider-slide{
-    width: 90px !important;
-    min-width: 110px !important;
-}
-.glider-track {
-    top: .5rem;
-    gap: 1rem;
+    display: flex;
     align-items: center;
+    justify-content: flex-start;
+    border-top: #88888857 solid 1px;
+    border-bottom: #88888857 solid 1px;
 }
-.carousel__lista p{
-    width: 100% ;
-    cursor: pointer;
-    font-size: 1.5rem;
-    text-align: center;
-    border: 1px solid #000;
-    border-radius: 9999px;
-    padding: .5rem;
-} 
-.carousel__lista p:hover{
-    background: #e5e5e5;
-} 
 .carousel__elemento{
-    width: auto;
-    height: 1rem;
-}
-.carousel__anterior,
-.carousel__siguiente{
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border: none;
-    top: 1.6rem;
+    margin: 0 1rem;
+    padding: 1rem;
     cursor: pointer;
-    text-align: center;
-    background: none;
-    opacity: 50%;
+    border: 1px solid #888888;
+    border-radius: 9999px;
+    font-size: 1.3rem;
 }
-.carousel__siguiente{
-    right: 25px;
-}
-.carousel__anterior{
-    left: 15px;
-}
+.carousel__elemento:hover{
+    background: black;
+    color: #f2f2f2;
+} 
 /* Aside */
 .aside-container{
     /*width: 240px;*/
@@ -182,32 +149,51 @@
     height: 83.5vh;
     grid-area: article;
     overflow-y: scroll;
+    background-color: #ececec57;
 }
 .video--container{
     cursor: pointer;
-    margin: 1rem;
+    margin: .6rem;
 }
 .videos--grid{
     width: 100%;
     margin: 0 auto;
     padding: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(90px, 250px));
-    gap: 1rem;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 266px));
+    justify-content: start;
 }
 .video--container img{
     width: 100%;
 }
 .video-information{
+    margin-top: 1.2rem;
     display: flex;
 }
 .video-information img{
     width: 3.5rem;
     height: 3.5rem;
-    margin-right: .8rem;
+    margin-right: 1.2rem;
     border-radius: 50%;
+    object-fit: cover;
+}
+.channel--info h2{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: black;
+    margin-bottom: .6rem;
+}
+.channel--info p{
+    opacity: .8;
+    font-size: 1.2rem;
 }
 .views-info{
     display: flex;
+    margin-top: .6rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.views-info p{
+    font-size: 1.2rem;
+    margin: 0;
 }
