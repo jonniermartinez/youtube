@@ -154,6 +154,7 @@
 .video--container{
     cursor: pointer;
     margin: .6rem;
+    margin-bottom: 3rem;
 }
 .videos--grid{
     width: 100%;
